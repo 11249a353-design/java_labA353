@@ -1,3 +1,18 @@
+/*A353
+Aim
+To write a Java program to check whether a given positive integer is an Armstrong number or not.
+
+Algorithm
+Start the program.
+Read a positive integer from the user.
+Store the original number in the variable nu and initialize num = 0.
+Extract the last digit of the number using nu % 10.
+Calculate the cube of the digit and add it to num.
+Remove the last digit using nu = nu / 10.
+Repeat steps 4 to 6 until nu becomes zero.
+Compare num with the original number n.
+If both are equal, display "Armstrong Number"; otherwise, display "Not an Armstrong Number".
+Stop the program.*/
 import java.util.Scanner; public class Armstrong
 {
 public static void main(String args[])
@@ -21,4 +36,14 @@ System.out.print("Not an Armstrong Number");
 }
 }
 }
+/*Output
+text
+Enter any Positive Number : 153
+Armstrong Number
+Another output:
 
+text
+Enter any Positive Number : 123
+Not an Armstrong Number
+Result
+Thus, the Java program to check whether a given positive integer is an Armstrong number or not was executed successfully.*/

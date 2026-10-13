@@ -1,3 +1,21 @@
+/*A353
+Aim
+To write a Java program to input the names and marks of six students and display the names and marks of students who scored more than 60.
+
+Algorithm
+Start the program.
+
+Declare an integer array to store the marks and a string array to store the names of six students.
+
+Read the name and marks of each student.
+
+Display the heading "Students scoring more than 60".
+
+Check the marks of each student using a loop.
+
+If a student's marks are greater than 60, display their name and marks.
+
+Stop the program.*/
 import java.util.Scanner;
 
 public class MarksAbvSixty
@@ -30,3 +48,16 @@ public class MarksAbvSixty
         }
     }
 }
+/*Output
+text
+Enter Name of Student and Marks of Subject 1: Arun 75
+Enter Name of Student and Marks of Subject 2: Ravi 55
+Enter Name of Student and Marks of Subject 3: Priya 85
+Enter Name of Student and Marks of Subject 4: Kumar 60
+Enter Name of Student and Marks of Subject 5: Divya 90
+Enter Name of Student and Marks of Subject 6: Sita 45
+
+Students scoring more than 60:
+Arun : 75
+Priya : 85
+Divya : 90*/

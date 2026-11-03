@@ -1,3 +1,18 @@
+/*A353
+Aim
+To write and execute a Java Applet program to arrange ten buttons in a 5 × 2 grid layout using the GridLayout manager.
+
+Algorithm
+Start the program.Import the required Java packages.
+Create a class named gld that extends the Applet class.
+Define the init() method.
+Set the layout manager to GridLayout(5,2).
+Create ten buttons with labels A, B, C, D, E, F, G, H, I and J.
+Add all ten buttons to the applet using the add() method.
+Override the getInsets() method to set a 20-pixel margin on all sides.
+Display the buttons in a 5 × 2 grid format.
+Stop the program.*/
+
 import java.awt.*;
 import java.io.*;
 import java.applet.Applet.*;
@@ -35,3 +50,5 @@ public Insets getInsets()
 {
 return new Insets(20,20,20,20);
 }}
+/* result : 
+Thus, the Java Applet program to arrange ten buttons in a 5 × 2 grid layout using the GridLayout manager was executed successfully and the desired output was obtained.*/
